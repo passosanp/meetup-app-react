@@ -37,8 +37,8 @@ function MeetupItem(props) {
                 <div className={classes.actions}>
                     <button onClick={toogleFavoriteStatusHandler}>
                         {itemIsFavorite
-                            ? "Remover dos favoritos"
-                            : "Adicionar aos favoritos"}
+                            ? "Remove from favorites"
+                            : "Add to favorites"}
                     </button>
                 </div>
             </Card>
